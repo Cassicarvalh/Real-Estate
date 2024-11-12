@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/">
+  </head>
+
+  <body>
+    <style>
+      .top-bar, .title-bar {
+    background-color: #9e0404; /* Fundo preto */
+  }
+
+  .top-bar ul.menu > li > a, .top-bar .menu-text, .title-bar-title {
+    color: #ffffff; /* Texto branco */
+  }
+
+  /* Altere o estilo do botão de login, caso deseje */
+  .top-bar ul.menu > li > a.button {
+    color: #ffffff; /* Texto preto no botão */
+  }
+
+  /* Efeitos para quando o mouse passar sobre os itens do menu */
+  .top-bar ul.menu > li > a:hover, .top-bar ul.menu > li > a.button:hover {
+    color: #9e0404; /* Texto preto ao passar o mouse */
+    background-color: #ffffff; /* Fundo branco ao passar o mouse */
+  }
+  .top-bar, .top-bar ul {
+    background-color: #9e0404;
+}
+.callout.secondary {
+    background-color: #9e0404;
+}
+label {
+    display: block;
+    margin: 0;
+    font-size: .875rem;
+    line-height: 1.8;
+    color: #ffffff;
+}
+.callout { 
+    margin: 0 0 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0;
+    position: relative;
+    background-color: #cfcac4; /* Fundo preto com 70% de transparência */
+    color: rgb(0, 0, 0);
+}
+.calloutt{
+  margin: 0 0 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0;
+    position: relative;
+    background-color: #cfcac4; /* Fundo preto com 70% de transparência */
+    color: rgb(0, 0, 0);
+    width: 400px;  /* Largura */
+}
+
+a {
+    color: #ffffff;
+}
+a:focus, a:hover {
+    color: white;
+}
+.button:focus, .button:hover {
+    background: #9e0404;
+    color: #fff;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: all .25s ease-out;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: .85em 1em;
+    margin: 0 1rem 1rem 0;
+    font-size: .9rem;
+    background: #ac6405 !important;
+    color: #fff;
+}
+.a .button{
+  color: white !important;
+}
+.subheader {
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    line-height: 1.4;
+    color: #000000;
+}
+.button.hollow:focus {
+    border-color: #ac6405;
+    color: #ffffff;
+}
+.button.hollow:focus, .button.hollow:hover {
+    border-color: #ac6405;
+    color: #ffffff;
+}
+.button.hollow {
+    border: 1px solid #ac6405;
+    color: #ffffff;
+}
+
+    </style>
+
+<!-- Navigation -->
+<div class="title-bar" data-responsive-toggle="realEstateMenu" data-hide-for="small">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="realEstateMenu">
+  <div class="top-bar-left">
+    <ul class="menu" data-responsive-menu="accordion">
+      <li class="menu-text">LOGO</li>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Imóveis</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contactos</a></li>
+      <li><a href="#">Quem Somos</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><a href="#">Usuário</a></li>
+      <li><a class="button">Login</a></li>
+    </ul>
+  </div>
+</div>
+<!-- /Navigation -->
+
+<br>
+
+<div class="row">
+  <div class="medium-7 large-6 columns">
+    <h1>Encontre o Lar dos Seus Sonhos</h1>
+    <p class="subheader">Sua próxima casa está aqui: imóveis selecionados, consultoria especializada e o compromisso de realizar o seu projeto de vida.</p>
+    <button class="button">Tour Virtual</button>
+    <button class="button">Avaliação Gratuita</button>
+  </div>
+
+  <div class="show-for-large large-3 columns">
+    <img src="img/casal.jpg" alt="picture of space">
+  </div>
+
+  <div class="medium-5 large-3 columns">
+    <div class="callout secondary">
+      <form>
+        <div class="row">
+          <div class="small-12 columns">
+            <label>Encontre seu Lugar
+              <input type="email" placeholder="Email">
+            </label>
+          </div>
+          <div class="small-12 columns">
+            <label>Telemóvel
+              <input type="tel" placeholder="Número">
+            </label>
+            <button type="submit" class="button">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<div class="row column">
+  <hr>
+</div>
+
+<div class="row column">
+  <p class="lead">Destaques da Semana</p>
+</div>
+
+<div class="row small-up-1 medium-up-2 large-up-3">
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V6</p>
+      <p><img src="img/home1.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Setúbal</p>
+      <p class="subheader">Encontre o espaço perfeito em Setúbal, a joia da costa portuguesa</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V5</p>
+      <p><img src="img/home2.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Porto</p>
+      <p class="subheader">Descubra o seu novo lar na cidade do vinho e da hospitalidade</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V7</p>
+      <p><img src="img/home3.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Viana do Castelo</p>
+      <p class="subheader">Receba atualizações sobre moradias em Viana do Castelo, um refúgio encantador no norte de Portugal</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V10</p>
+      <p><img src="img/home4.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Lisboa</p>
+      <p class="subheader">Explore as melhores oportunidades de moradia na vibrante capital de Lisboa</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V6</p>
+      <p><img src="img/home5.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Coimbra</p>
+      <p class="subheader">Encontre o espaço perfeito em Coimbra, a cidade das tradições académicas e paisagens deslumbrantes</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="callout">
+      <p>Moradia V5</p>
+      <p><img src="img/home6.jpg" alt="image of a planet called Pegasi B"></p>
+      <p class="lead">Algarve</p>
+      <p class="subheader">Encontre o espaço perfeito no Algarve, o paraíso do sol e das paisagens deslumbrantes</p>
+    </div>
+  </div>
+</div>
+
+  <div class="row column" id="more-homes-2" style="display: none;">
+    <div class="column">
+      <div class="calloutt">
+        <p>Moradia V5</p>
+        <p><img src="img/home7.jpg" alt="image of a planet called Pegasi B"></p>
+        <p class="lead">Madeira</p>
+        <p class="subheader">Viva a experiência única da Madeira, com suas paisagens exuberantes.</p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row column">
+  <a class="button hollow expanded" id="show-more-button" onclick="showMoreHomes()">Ver Mais</a>
+</div>
+
+
+
+
+
+<footer>
+  <div class="row expanded callout secondary">
+
+    <div class="small-6 large-3 columns">
+      <p class="lead">Endereço</p>
+      <ul class="menu vertical">
+        <li><a href="#">Avenida Lisboa Portugal, n84, Rua Lisboa 2000-123</a></li>
+        <li><a href="#">09:30h às 13:00 e das 14:30h às 19:00h</a></li>
+        <li><a href="#">(+351) 123 456 789</a></li>
+        
+      </ul>
+    </div>
+
+    
+
+    <div class="small-6 large-3 columns">
+      <p class="lead">Redes Sociais</p>
+      <ul class="menu vertical">
+        <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
+        <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
+        <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
+      </ul>
+    </div>
+
+  
+
+  </div>
+  <div class="row">
+
+    <div class="medium-6 columns">
+      <ul class="menu">
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Termos e Condições</a></li>
+      </ul>
+    </div>
+
+    <div class="medium-6 columns">
+      <ul class="menu float-right">
+        <li class="menu-text">Copyright© 2024 Cassielle</li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  
+    <script>
+
+$(document).foundation(); // Inicializa o Foundation
+
+        $(document).ready(function() {
+            $('#show-more-button').on('click', function() {
+                $('#more-homes-2').toggle(); // Alterna a visibilidade da segunda seção de moradias
+                
+                // Altera o texto do botão conforme o estado das moradias
+                if ($('#more-homes-2').is(':visible')) {
+                    $(this).text('Ver Menos');
+                } else {
+                    $(this).text('Ver Mais');
+                }
+            });
+        });
+      </script>
+      </body>
+      </html>
